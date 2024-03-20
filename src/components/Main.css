@@ -1,0 +1,19 @@
+.main-container{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-shrink: unset;
+    justify-content: flex-end;
+    text-align: left;
+    
+
+    }
+.main-container p{
+    display: flex;
+    font-size: 13vw;
+    max-width: 1600px;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 510;
+    align-items: center;
+}

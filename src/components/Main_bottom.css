@@ -1,0 +1,14 @@
+.bottom-container {
+    display: flex;
+    height: 28vh;
+    align-items: center;
+    
+   
+   
+}
+.bottom-container p {
+    display: flex;
+    font-size: 64px;
+    font-weight: 500;
+    align-items: center;
+}
