@@ -2,16 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
 }
 
 .menu-list {
     display: flex;
-    justify-content: space-between;
-    gap: 70px;
-    max-width: 1000px;
-    font-size: 25px;
-    font-weight: 400;
+    gap: 60px; /* Reduce the gap between menu items */
+    font-size: 1.8vw;
 }
 .menu-list p {
     position: relative;

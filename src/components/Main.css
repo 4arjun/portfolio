@@ -1,19 +1,17 @@
-.main-container{
+.main-container {
     height: 60vh;
     width: 100%;
     display: flex;
-    flex-shrink: unset;
-    justify-content: flex-end;
-    text-align: left;
-    
+    justify-content: flex-end; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    text-align: center;
+}
 
-    }
-.main-container p{
-    display: flex;
-    font-size: 13vw;
-    max-width: 1600px;
+.main-container p {
+    font-size: 17vw; /* Adjust font size for responsiveness */
+    max-width: 90%; /* Limit the maximum width */
+    font-weight: 570;
     text-align: right;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 510;
-    align-items: center;
+    line-height: 1;
+ 
 }
