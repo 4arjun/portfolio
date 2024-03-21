@@ -27,3 +27,8 @@
 .menu-list p:hover::after {
     width: 100%; 
 }
+@media screen and (max-width: 468px) {
+    .menu-list {
+        gap: 30px; /* Reduce the gap between menu items for smaller screens */
+    }
+}
