@@ -4,6 +4,7 @@ const Main_bottom = () => {
     return (
         <div className='bottom-container'>
             <p>MEC'27</p>
+    
         </div>
     )
 }

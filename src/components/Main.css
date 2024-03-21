@@ -1,17 +1,18 @@
 .main-container {
-    height: 60vh;
-    width: 100%;
     display: flex;
-    justify-content: flex-end; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
+    height: 60vh;
+    align-items: center; 
+    justify-content: flex-end; 
     text-align: center;
+    margin-top: 45px;
 }
 
 .main-container p {
-    font-size: 17vw; /* Adjust font size for responsiveness */
-    max-width: 90%; /* Limit the maximum width */
-    font-weight: 570;
+    font-size: 15vw;
+    max-width: 90%; 
+    font-weight: 700;
     text-align: right;
     line-height: 1;
+    align-items: center;
  
 }
