@@ -1,22 +1,17 @@
-/* Home.css */
+
 .home-container {
-    padding: 5px 7px; /* Adjust padding as needed */
+    padding: 5px 7px; 
     width: 100%;
-    margin: auto; /* Center the container */
-    max-width: 1400px; /* Set a maximum width if necessary */
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    margin: auto; 
+    max-width: 1400px; 
+    overflow-x: hidden; 
 }
 
-/* Adjust the styles of the inner elements if necessary */
-/* For example, you might reduce their width or adjust margins/paddings */
-.main-container {
-    max-width: calc(100% - 20px); /* Adjust as needed */
-}
 
 .nav-container {
-    max-width: calc(100% - 20px); /* Adjust as needed */
+    max-width: calc(100% - 20px); 
 }
 
 .menu-list {
-    max-width: calc(100% - 20px); /* Adjust as needed */
+    max-width: calc(100% - 20px);
 }
