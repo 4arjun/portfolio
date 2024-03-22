@@ -1,14 +1,14 @@
 .bottom-container {
     display: flex;
-    height: 28vh;
+    height: 24vh;
     align-items: center;
-    
-   
-   
+    padding: 5px 57px; 
 }
 .bottom-container p {
     display: flex;
     font-size: 64px;
     font-weight: 500;
     align-items: center;
+    padding-top: 20px;
+    
 }

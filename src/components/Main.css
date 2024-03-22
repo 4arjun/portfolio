@@ -1,18 +1,16 @@
 .main-container {
     display: flex;
-    height: 60vh;
-    align-items: center; 
     justify-content: flex-end; 
-    text-align: center;
-    margin-top: 45px;
+    margin-top: 95px;
+    padding: 5px 57px; 
+    align-items: center;
+    height: 60vh;
+    
 }
 
 .main-container p {
-    font-size: 15vw;
-    max-width: 90%; 
+    font-size: 16vw;
     font-weight: 700;
     text-align: right;
     line-height: 1;
-    align-items: center;
- 
 }
