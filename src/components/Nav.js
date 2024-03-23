@@ -1,18 +1,22 @@
-import './Nav.css'
+import './Nav.css';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
+
 const Nav = () => {
+    
     return (
         <div className='nav-container'>
             <div className='toggle-bar'>
                 <p>button</p>
             </div>
             <div className='menu-list'>
-                <p className='list-item-1'>About</p>
-                <p className='list-item-2'>Resume</p>
-                <p className='list-item-3'>Projects</p>
-                <p className='list-item-4'>Github</p>
+                <Link to="/about" className='list-items'>About</Link>
+                <Link to="/resume"className='list-items'>Resume</Link>
+                <Link to="/about" className='list-items'>Projects</Link>
+                <Link to="/about" className='list-items'>Github</Link>
             </div>
         </div>
-    )
-}
-export default Nav
+    );
+};
+
+export default Nav;

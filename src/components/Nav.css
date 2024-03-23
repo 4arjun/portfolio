@@ -30,11 +30,13 @@
     gap: 60px; 
     font-size: 1.7vw;
 }
-.menu-list p {
+.list-items {
     position: relative;
+    text-decoration: none;
+    color: black;
 }
 
-.menu-list p::after {
+.list-items::after {
     content: "";
     position: absolute;
     left: 0;
@@ -45,7 +47,7 @@
     transition: width 0.6s ease;
 }
 
-.menu-list p:hover::after {
+.list-items:hover::after {
     width: 100%; 
 }
 @media screen and (max-width: 468px) {
