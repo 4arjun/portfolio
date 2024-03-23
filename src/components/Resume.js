@@ -1,6 +1,6 @@
 import React from 'react';
 import './resume.css';
-import resume from '../ML_CV1_ARJUN_AJITH.pdf'
+import resume from '../assets/ML_CV1_ARJUN_AJITH.pdf'
 
 const Resume = () => {
     return (
