@@ -1,19 +1,39 @@
-.main-container{
-    height: 60vh;
-    width: 100%;
+.main-container {
     display: flex;
-    flex-shrink: unset;
     justify-content: flex-end;
-    text-align: left;
-    
-
-    }
-.main-container p{
-    display: flex;
-    font-size: 13vw;
-    max-width: 1600px;
-    text-align: right;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 510;
+    margin-top: 95px;
+    padding: 5px 57px;
     align-items: center;
+    height: 60vh;
+    opacity: 0; 
+    transform: rotateX(90deg);
+    transition: opacity 0.7s ease, transform 1s ease;
+}
+.main-container.visible {
+    opacity: 1;
+    transform: rotateX(0deg);
+}
+.first-part,
+.second-part {
+    opacity: 0;
+}
+
+
+.first-part.visible {
+    opacity: 1;
+   
+}
+
+
+.second-part.visible {
+    opacity: 1;
+    
+}
+
+
+.main-container p {
+    font-size: 16vw;
+    font-weight: 700;
+    text-align: right;
+    line-height: 1;
 }

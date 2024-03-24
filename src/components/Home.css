@@ -1,4 +1,4 @@
 .home-container {
-    padding: 5px 44px;
-    width: 94%;
+    width: 100%;
+    max-width: 2800px; 
 }
