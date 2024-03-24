@@ -3,6 +3,15 @@
     height: 24vh;
     align-items: center;
     padding: 5px 57px; 
+    opacity: 0;
+    transform: rotateX(90deg);
+    transition: opacity 0.7s ease, transform 1.4s ease;
+}
+
+
+.bottom-container.visible {
+    opacity: 1;
+    transform: rotateX(0deg);
 }
 .bottom-container p {
     display: flex;

@@ -1,12 +1,35 @@
 .main-container {
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end;
     margin-top: 95px;
-    padding: 5px 57px; 
+    padding: 5px 57px;
     align-items: center;
     height: 60vh;
+    opacity: 0; 
+    transform: rotateX(90deg);
+    transition: opacity 0.7s ease, transform 1s ease;
+}
+.main-container.visible {
+    opacity: 1;
+    transform: rotateX(0deg);
+}
+.first-part,
+.second-part {
+    opacity: 0;
+}
+
+
+.first-part.visible {
+    opacity: 1;
+   
+}
+
+
+.second-part.visible {
+    opacity: 1;
     
 }
+
 
 .main-container p {
     font-size: 16vw;
