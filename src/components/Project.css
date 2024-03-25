@@ -1,0 +1,63 @@
+.projects-container {
+    width: 100%;
+}
+
+.projects-sub-container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.intro-text {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.project-list-item {
+    font-family: "Poppins", sans-serif;
+    color: rgb(50, 135, 255);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.project-tech {
+    color: #8c8c8c;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.project-features {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    max-width: 100%;
+    padding-top: 40px;
+    row-gap: 70px;
+    column-gap: 40px;
+
+}
+
+.projects-gallery img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Horizontally center the images within each grid item */
+}
+
+/* Media Query for larger screens */
+@media screen and (min-width: 768px) {
+    .projects-gallery {
+        grid-template-columns: repeat(2, 1fr); /* Two images per row */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .projects-gallery {
+        max-width: 70%;
+    }
+}
+
