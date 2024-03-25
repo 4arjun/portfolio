@@ -12,8 +12,8 @@ const Nav = () => {
             <div className='menu-list'>
                 <Link to="/about" className='list-items'>About</Link>
                 <Link to="/resume"className='list-items'>Resume</Link>
-                <Link to="/projects" className='list-items'>Projects</Link>
-                <Link to="/github" className='list-items'>Github</Link>
+                <Link to="/project" className='list-items'>Projects</Link>
+                <Link to="https://github.com/4arjun" className='list-items'>Github</Link>
             </div>
         </div>
     );
