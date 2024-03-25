@@ -1,0 +1,29 @@
+.amppay-container {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  
+  .amppay-pdf {
+    
+    width: 100%; 
+    height: 1820px; 
+    border: none;
+    overflow: hidden;
+    object-fit: initial;
+  }
+ 
+
+
+
+
+  @media screen and (max-width: 768px) {
+    .amppay-pdf {
+      width: 30%; 
+      
+    }
+  }
+  
