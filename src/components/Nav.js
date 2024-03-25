@@ -1,28 +1,25 @@
 import './Nav.css';
 import { Link } from 'react-router-dom';
 
-const DelayedLink = ({ to, delay, children }) => {
+const Nav = () => {
     const handleClick = (e) => {
         e.preventDefault();
         setTimeout(() => {
-            window.location.href = to;
-        }, delay);
+            window.location.href = e.target.href;
+        }, 300);
     };
 
-    return <a href={to} onClick={handleClick}>{children}</a>;
-};
-
-const Nav = () => {
     return (
         <div className='nav-container'>
             <div className='toggle-bar'>
                 <p>button</p>
             </div>
             <div className='menu-list'>
-                <DelayedLink to="/about" delay={300}>About</DelayedLink>
-                <DelayedLink to="/resume" delay={300}>Resume</DelayedLink>
-                <DelayedLink to="/project" delay={300}>Projects</DelayedLink>
-                <DelayedLink to="https://github.com/4arjun" delay={300}>Github</DelayedLink>
+                <Link to="/about" className='list-items' onClick={handleClick}>About</Link>
+                <Link to="/resume" className='list-items' onClick={handleClick}>Resume</Link>
+                <Link to="/project" className='list-items' onClick={handleClick}>Projects</Link>
+                <Link to="https://github.com/4arjun" className='list-items' onClick={handleClick}>Github</Link>
+                
             </div>
         </div>
     );
