@@ -1,3 +1,7 @@
+.menu-list a {
+    text-decoration: none;
+    color: #000000;
+}
 
 .nav-container {
     display: flex;
@@ -6,13 +10,14 @@
     position: fixed;
     top: 0;
     left: 0;
-    padding: 20px 57px; 
+    padding: 20px 57px;
     width: 100%;
     animation: slideInFromTop 0.5s ease forwards;
     opacity: 0;
     z-index: 1000;
     box-sizing: border-box;
 }
+
 @keyframes slideInFromTop {
     from {
         opacity: 0;
@@ -24,34 +29,35 @@
     }
 }
 
-
 .menu-list {
     display: flex;
-    gap: 60px; 
+    gap: 60px;
     font-size: 1.7vw;
 }
-.list-items {
+
+.menu-list a {
     position: relative;
-    text-decoration: none;
     color: black;
 }
 
-.list-items::after {
+.menu-list a::after {
     content: "";
     position: absolute;
     left: 0;
-    bottom: -3px; 
-    width: 0; 
-    height: 1px; 
-    background-color: #333; 
+    bottom: -3px;
+    width: 0;
+    height: 1px;
+    background-color: #333;
     transition: width 0.6s ease;
 }
 
-.list-items:hover::after {
-    width: 100%; 
+.menu-list a:hover::after {
+    width: 100%;
 }
+
 @media screen and (max-width: 468px) {
     .menu-list {
-        gap: 30px; 
+        gap: 30px;
+        font-size: 16px; /* Adjust font size for smaller screens */
     }
 }
