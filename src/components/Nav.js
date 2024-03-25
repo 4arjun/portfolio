@@ -6,7 +6,7 @@ const Nav = () => {
         e.preventDefault();
         setTimeout(() => {
             window.location.href = e.target.href;
-        }, 500);
+        }, 300);
     };
 
     return (
