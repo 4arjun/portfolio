@@ -6,7 +6,7 @@ const Nav2 = () => {
     
 
     return (
-        <div className='nav-container'>
+        <div className='nav-container-2'>
             <div className='toggle-bar'>
                 <p>button</p>
             </div>

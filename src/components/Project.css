@@ -12,6 +12,10 @@
     font-weight: 300;
 }
 
+.project-details {
+    padding-bottom: 40px;
+}
+
 .project-list-item {
     font-family: "Poppins", sans-serif;
     color: rgb(50, 135, 255);
@@ -40,6 +44,10 @@
     column-gap: 70px;
 
 
+}
+
+.project-description {
+    line-height: 1.5;
 }
 
 .projects-gallery img {

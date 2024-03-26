@@ -28,7 +28,6 @@
 .menu-list {
     display: flex;
     gap: 60px; 
-    font-size: 1.7vw;
 }
 .list-items {
     position: relative;
