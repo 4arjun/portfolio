@@ -49,6 +49,9 @@
 .project-description {
     line-height: 1.5;
 }
+.project-description li {
+    max-width: 900px;
+}
 
 .projects-gallery img {
     width: 100%;
