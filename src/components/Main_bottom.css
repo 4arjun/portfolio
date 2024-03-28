@@ -1,6 +1,5 @@
 .bottom-container {
     display: flex;
-    height: 24vh;
     align-items: center;
     padding: 5px 57px; 
     opacity: 0;
