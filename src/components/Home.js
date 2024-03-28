@@ -6,6 +6,7 @@ import Nav from './Nav'
 const Home = () => {
     return (
         <div className='home-container'>
+            <div className='home-initial-display'>
             <div>
                 <Nav />
             </div>
@@ -14,6 +15,7 @@ const Home = () => {
             </div>
             <div>
                 <Main_bottom />
+            </div>
             </div>
         </div>
        
