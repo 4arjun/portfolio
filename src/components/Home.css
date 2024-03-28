@@ -2,3 +2,7 @@
     width: 100%;
     max-width: 2800px; 
 }
+
+.home-initial-display {
+    max-height: 100vh;
+}
