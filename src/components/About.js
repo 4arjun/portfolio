@@ -2,7 +2,13 @@ import "./About.css"
 
 const About = () => {
     return (
-        <h1>veev</h1>
+        <div className="about-container">
+            <div className="about-sub-container">
+            <div className="about-header">
+                <p>About Me</p>
+            </div>
+            </div>
+        </div>
     )
 }
 
