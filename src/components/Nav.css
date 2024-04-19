@@ -28,11 +28,13 @@
 .menu-list {
     display: flex;
     gap: 60px; 
+    padding-left: 20px;
 }
 .list-items {
     position: relative;
     text-decoration: none;
     color: black;
+ 
 }
 
 .list-items::after {
@@ -42,12 +44,21 @@
     bottom: -3px; 
     width: 0; 
     height: 1px; 
-    background-color: #333; 
+    background: linear-gradient(to right, #000000, #b62727); 
     transition: width 0.6s ease;
 }
 
 .list-items:hover::after {
     width: 100%; 
+}
+
+.list-items:hover {
+    background: linear-gradient(to right, #000000, #b62727); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+        
+    
 }
 @media screen and (max-width: 468px) {
     .menu-list {
