@@ -9,31 +9,54 @@
     transform: rotateX(90deg);
     transition: opacity 0.7s ease, transform 1s ease;
 }
+
 .main-container.visible {
     opacity: 1;
     transform: rotateX(0deg);
 }
+
 .first-part,
 .second-part {
     opacity: 0;
 }
 
-
-.first-part.visible {
-    opacity: 1;
-   
-}
-
-
+.first-part.visible,
 .second-part.visible {
     opacity: 1;
-    
 }
-
 
 .main-container p {
     font-size: 16vw;
     font-weight: 700;
     text-align: right;
     line-height: 1;
+    
+
+}
+
+
+
+.letter {
+    display: inline-block;
+    cursor: pointer; 
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.bounce {
+    animation: bounce 0.5s forwards;
+    background: linear-gradient(to right, #0033ff, #1be08e); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
