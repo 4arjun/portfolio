@@ -62,6 +62,7 @@
 }
 
 .list-items:hover {
+    font-weight: 440;
     background: linear-gradient(to right, #000000, #b62727); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;   
